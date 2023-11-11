@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A47BD67C2AFD3389005AC81C /* Lab5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A47BD67A2AFD3389005AC81C /* Lab5.cpp */; };
 		A4E6EA272AC1DA20008FA2A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4E6EA262AC1DA20008FA2A4 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A47BD67A2AFD3389005AC81C /* Lab5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Lab5.cpp; sourceTree = "<group>"; };
+		A47BD67B2AFD3389005AC81C /* Lab5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Lab5.hpp; sourceTree = "<group>"; };
 		A4E6EA232AC1DA20008FA2A4 /* Game1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Game1; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4E6EA262AC1DA20008FA2A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A4E6EA262AC1DA20008FA2A4 /* main.cpp */,
+				A47BD67A2AFD3389005AC81C /* Lab5.cpp */,
+				A47BD67B2AFD3389005AC81C /* Lab5.hpp */,
 			);
 			path = Game1;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4E6EA272AC1DA20008FA2A4 /* main.cpp in Sources */,
+				A47BD67C2AFD3389005AC81C /* Lab5.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
