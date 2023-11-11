@@ -1,14 +1,21 @@
-//
-//  main.cpp
-//  Game1
-//
-//  Created by Cayne Reed on 9/25/23.
-//
-
+// Random Number Guessing Game
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include <time.h>
+#include <string>
+using namespace std;
+void StartInput();
+void CaseInput();
+void EndInput ();
+int main()
+{
+    bool runAgain = true;
+    do
+    {
+        StartInput();
+        CaseInput();
+        EndInput();
+    }while (runAgain == true);
+    
     return 0;
 }
+
